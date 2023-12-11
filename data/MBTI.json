@@ -1,0 +1,97 @@
+    [{
+        "mbti": "ISTJ",
+        "personality": "Logistician",
+        "class": "Sentinels",
+        "description": "Practical and fact-minded individuals, whose reliability cannot be doubted. ISTJs value tradition, order, and loyalty, often excelling in organizing and managing projects with a clear set of rules and standards."
+    },
+    {
+        "mbti": "ISFJ",
+        "personality": "Defender",
+        "class": "Sentinels",
+        "description": "Very dedicated and warm protectors, always ready to defend their loved ones. ISFJs are caring, social, and enjoy upholding tradition and taking care of others, grounded in practicality and realism."
+    },
+    {
+        "mbti": "INFJ",
+        "personality": "Advocate",
+        "class": "Diplomats",
+        "description": "Quiet and mystical, yet very inspiring and tireless idealists. INFJs are known for their empathy, idealism, and desire for harmony and deeper understanding, often driven by strong values."
+    },
+    {
+        "mbti": "INTJ",
+        "personality": "Architect",
+        "class": "Analysts",
+        "description": "Imaginative and strategic thinkers, with a plan for everything. INTJs are known for their high intellect, logical reasoning, and independent thinking, often with a vision for the future."
+    },
+    {
+        "mbti": "ISTP",
+        "personality": "Virtuoso",
+        "class": "Explorers",
+        "description": "Bold and practical experimenters, masters of all kinds of tools. ISTPs are flexible and spontaneous, often skilled at finding solutions to practical problems through trial and error."
+    },
+    {
+        "mbti": "ISFP",
+        "personality": "Adventurer",
+        "class": "Explorers",
+        "description": "Flexible and charming artists, always ready to explore and experience something new. ISFPs are known for their creativity, aesthetics, and sensitivity, often expressing themselves through artistic endeavors."
+    },
+    {
+        "mbti": "INFP",
+        "personality": "Mediator",
+        "class": "Diplomats",
+        "description": "Poetic, kind, and altruistic people, always eager to help a good cause. INFPs are guided by their principles and values, often deeply introspective and idealistic, seeking to understand themselves and the world."
+    },
+    {
+        "mbti": "INTP",
+        "personality": "Logician",
+        "class": "Analysts",
+        "description": "Innovative inventors with an unquenchable thirst for knowledge. INTPs are characterized by their unparalleled logic and creativity, often delving into abstract thought and theoretical possibilities."
+    },
+    {
+        "mbti": "ESTP",
+        "personality": "Entrepreneur",
+        "class": "Explorers",
+        "description": "Smart, energetic, and very perceptive people, who truly enjoy living on the edge. ESTPs are action-oriented, often drawn to high-energy situations and focused on the present moment."
+    },
+    {
+        "mbti": "ESFP",
+        "personality": "Entertainer",
+        "class": "Explorers",
+        "description": "Spontaneous, energetic, and enthusiastic entertainers – life is never boring around them. ESFPs love being in the spotlight, are social, and enjoy creating and experiencing art, music, and entertainment."
+    },
+    {
+        "mbti": "ENFP",
+        "personality": "Campaigner",
+        "class": "Diplomats",
+        "description": "Enthusiastic, creative, and sociable free spirits, who can always find a reason to smile. ENFPs are known for their enthusiasm, creativity, and an unending quest for deeper meaning and new possibilities."
+    },
+    {
+        "mbti": "ENTP",
+        "personality": "Debater",
+        "class": "Analysts",
+        "description": "Smart and curious thinkers who cannot resist an intellectual challenge. ENTPs are known for their quick thinking, adaptability, and ability to debate ideas from multiple perspectives."
+    },
+    {
+        "mbti": "ESTJ",
+        "personality": "Executive",
+        "class": "Sentinels",
+        "description": "Excellent administrators, unsurpassed at managing things – or people. ESTJs are practical, traditional, and organized, often taking charge in organizing projects and people to achieve their goals."
+    },
+    {
+        "mbti": "ESFJ",
+        "personality": "Consul",
+        "class": "Sentinels",
+        "description": "Extraordinarily caring, social, and popular people, always eager to help. ESFJs are known for their strong sense of duty, loyalty, and the ability to connect with others."
+    },
+    {
+        "mbti": "ENFJ",
+        "personality": "Protagonist",
+        "class": "Diplomats",
+        "description": "Charismatic and inspiring leaders, able to mesmerize their listeners. ENFJs are passionate, empathetic, and skilled at understanding and guiding others, often driven by a desire to help and inspire."
+    },
+    {
+        "mbti": "ENTJ",
+        "personality": "Commander",
+        "class": "Analysts",
+        "description": "Bold, imaginative, and strong-willed leaders, always finding a way – or making one. ENTJs are known for their strategic thinking, assertiveness, and ability to lead and implement complex plans."
+    }
+]

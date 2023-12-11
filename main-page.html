@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CS 171 MBTI NonBelievers</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/custom.css">
+</head>
+<body>
+
+    <!-- Scroll page process bar -->
+    <ul class = 'navigation_dots'>
+        <li class = "selected"></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+
+    <main>
+        <!--Welcome Page-->
+        <div class="container-fluid">
+            <div class="row full-height">
+                <div class="container_welcome">
+                    <h1 class="main-title">Instructions</h1>
+                    <div class="row">
+                        <div class="col-md-6 col-12">
+                            <h2>Know your favorite music</h2>
+                        </div>
+                        <div class="col-md-6 col-12">
+                            <h2>Know your personality</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 welcome-img-container">
+                            <img src="img/Find.PNG" alt="Welcome Page Find your result" class="welcome_resultIMG">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 col-12">
+                            <h2>Guess your most possible personality</h2>
+                        </div>
+                        <div class="col-md-6 col-12">
+                            <h2>Guess the Music your may like</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Section 1:MBTI ALL -->
+        <div class="row full-height">
+            <div class="col-12  d-flex align-items-center justify-content-center">
+                <div class = 'section1'>
+                    <h3>MBTI: 16 Personalities</h3>
+                    <div id = 'mbtiAll' class="placeholder"></div>
+                </div>
+            </div>
+        </div>
+
+        <!--Section 2: MBTI DETAIL-->
+        <div class="row full-height">
+            <div class="col-12  d-flex align-items-center justify-content-center">
+                <div class = 'section2'>
+                    <h3>Personality Types</h3>
+                    <div id = 'mbtiDetail' class="placeholder"></div>
+                </div>
+            </div>
+        </div>
+
+        <!--Section 3: MBTI MAP-->
+        <div class="row full-height">
+            <div class="col-12  d-flex align-items-center justify-content-center">
+                <div class = 'section3'>
+                    <h3>MBTI World Population</h3>
+                    <div id="mbtiMap" class="placeholder"></div>
+                </div>
+            </div>
+        </div>
+        <!--Section 4 PAPER-->
+        <div class="row full-height">
+            <div class="col-12  d-flex align-items-center justify-content-center">
+                <div class = 'section4'>
+                    <h3>Sound and Psyche: Visualizing Music's Academic Insights</h3>
+                    <div id = 'papers_vis' class="placeholder"></div>
+                    <select id="paperSelection">
+                        <option value="Default">Default</option>
+                        <option value="Music">Music</option>
+                        <option value="Personality">Personality</option>
+                        <option value="Social">Social</option>
+                        <option value="Technology">Technology</option>
+                        <option value="Psychology">Psychology</option>
+                        <option value="Sciences">Science</option>
+                        <!-- Add as many options as you need -->
+                    </select>
+                </div>
+            </div>
+        </div>
+        <!--Section 5: MUSIC GENRES-->
+        <div class="row full-height">
+            <div class="col-12  d-flex align-items-center justify-content-center">
+                <div class = 'section5'>
+                    <h3>Music Genres</h3>
+                    <div id = 'genre_vis' class="placeholder"></div>
+                </div>
+            </div>
+        </div>
+        <!--Section 6-->
+        <div class="row full-height">
+            <div class="col-12  d-flex align-items-center justify-content-center">
+                <div class = 'section6'>
+                    <h3>Melody & Persona: Uncover Music and Personality Connection</h3>
+                    <div id="test_select" class = "placeholder"></div>
+                </div>
+            </div>
+        </div>
+        <!--Section 7-->
+        <div class="row full-height" id="section7">
+            <div class="col-12  d-flex align-items-center justify-content-center">
+                <div class = 'section7'>
+                    <h3>Find your Connection</h3>
+                    <div id="test_vis" class = "placeholder"></div>
+                </div>
+            </div>
+        </div>
+        <!--Section 8-->
+        <div class="row full-height" id="section8">
+            <div class="col-12  d-flex align-items-center justify-content-center">
+                <div class = 'section8'>
+                    <h3>Explore detailed connections between Music & Persona</h3>
+                    <div id="mbtiMusicDistribution" class = "placeholder"></div>
+                </div>
+            </div>
+        </div>
+        <!--Section 9-->
+        <div class="row full-height">
+            <div class="col-12 d-flex align-items-center justify-content-center">
+                <div class='section9'>
+                    <h3>Reference</h3>
+                    <!-- Circle image placeholders -->
+                    <div class = 'container-fluid section9_reference'>
+                            <div class="circle_image_placeholder_reference d-flex">
+                                <div class="circle_with_text">
+                                    <div class="text_under_image_reference">MusicOSet
+                                        An Enhanced Music Dataset for Music Data Mining:<br> https://marianaossilva.github.io/DSW2019/<br><br>
+                                       16 Personalities:<br>https://www.16personalities.com/articles/music-preferences-by-personality-type<br><br>
+                                        MBTI Personality Type versus music taste:<br>https://www.reddit.com/r/SampleSize/comments/c0yx7q/results_mbti_personality_type_versus_music_taste/<br><br>
+                                        MusicBrainz Database:<br>https://musicbrainz.org/doc/MusicBrainz_Database<br><br>
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+                    <div class = container-fluid>
+                        <h2 class = 'section9_title'>Meet the Team</h2>
+                    </div>
+
+                    <div class="circle_image_placeholder d-flex justify-content-center">
+                        <div class="circle_with_text">
+                            <div class="circle_image">
+                                <img src="img/Ling_bw.PNG" alt="Default" class = 'ling_default-img'>
+                                <img src='img/Ling.PNG' alt='Hover' class='ling_hover-img'>
+                            </div>
+                            <div class="text_under_image">DJ: Lingbo<br>ENFJ<br>Harvard GSD</div>
+                        </div>
+                        <div class="circle_with_text">
+                            <div class="circle_image">
+                                <img src="img/Clara_bw.PNG" alt="Default" class='clara_default-img'>
+                                <img src='img/Clara.PNG' alt='Hover' class='clara_hover-img'>
+                            </div>
+                            <div class="text_under_image">Rocker: Clara<br>INTJ<br>Harvard SEAS</div>
+                        </div>
+                        <div class="circle_with_text">
+                            <div class="circle_image">
+                                <img src = 'img/Quan_bw.PNG' alt = 'Default' class = 'quan_default-img'>
+                                <img src = 'img/Quan.PNG' alt = 'Hover' class = 'quan_hover-img'>
+                            </div>
+                            <div class="text_under_image">Rapper: Jyuan<br>ENTJ<br>Harvard GSD</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+<!-- JS libraries -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+
+<!-- D3 -->
+<script src="https://d3js.org/d3.v7.min.js"></script>
+
+<!-- d3 GEO -->
+<script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+<script src="https://d3js.org/topojson.v2.min.js"></script>
+<script src="https://d3js.org/d3-geo.v1.min.js"></script>
+
+<!-- OWN JS -->
+<script src="js/main_style.js"></script>
+
+<script src="js/genre_radar_vis.js"></script>
+<script src="js/genre_vis.js"></script>
+<script src="js/mbtiAllVis.js"></script>
+<script src="js/mbtiDetailVis.js"></script>
+<script src="js/test_genre_vis.js"></script>
+<script src="js/test_mbti_vis.js"></script>
+<script src="js/test_select.js"></script>
+<script src="js/mbtiMusicDistributionVis.js"></script>
+<script src="js/mbtiMapVis.js"></script>
+<!--papers_vis.js-->
+<script src="js/papers.js"></script>
+<script src="js/main.js"></script>
+
+</body>
+</html>

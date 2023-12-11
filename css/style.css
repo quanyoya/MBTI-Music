@@ -1,0 +1,163 @@
+/*THIS IS THE CSS FOR LANDING PAGE*/
+/*Load Fonts*/
+@font-face {
+    font-family: 'RockSlayers';
+    src: url('font/RockSlayers-BW6Lw.otf') format('truetype');
+}
+
+@font-face {
+    font-family: 'DoodleFont';
+    src: url('font/Doodle.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'ChalkBoy';
+    src: url('font/ChalkboyRegular-vmXe7.otf') format('truetype');
+}
+
+/*Landing page Animation*/
+body{
+    background-image: url('../img/Landing_BK.png');
+    background-size: 90% 90%;
+    background-position: center center;
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    background-color:#393A4C;
+    overflow:hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-wrapper{
+    text-align: center;
+    position: relative;
+    font-size: 3.5vw;
+    line-height: 7vw;
+}
+
+.capital-letter {
+    font-size: 200%;
+}
+
+span{
+    position: relative;
+    display: inline-block;
+    color: #fff4d6;
+    font-family: 'RockSlayers', sans-serif;
+    font-weight: 900;
+    letter-spacing: 1vw;
+    transform-origin: center;
+    animation: waveAnim 2s infinite;
+    animation-delay: calc(0.2s * var(--i));"
+}
+
+@keyframes waveAnim {
+    0%, 40%,100%{
+        transform: translateY(0);
+    }
+    20%{
+        transform: translateY(-70px);
+    }
+}
+
+/*Navigate Button*/
+.navigate-button {
+    text-align: center;
+    margin-top: 0px;
+}
+
+.button-click {
+    font-family: "RockSlayers", sans-serif;
+    font-size: 2vw;
+    letter-spacing: 0.1vw;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000;
+    cursor: pointer;
+    border: 6px solid;
+    padding: 0.25em 0.5em;
+    box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 6px 6px 0px 0px, 4px 4px 0px 0px, 4px 4px 0px 0px;
+    position: relative;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.button-click:active {
+    box-shadow: 0px 0px 0px 0px;
+    top: 5px;
+    left: 5px;
+}
+
+@media (min-width: 768px) {
+    .button-click {
+        padding: 0.25em 0.75em;
+    }
+}
+
+/*Star Animation*/
+@keyframes star {
+    to {
+        zoom:10%;
+        opacity:0;
+    }
+    from{
+        zoom:100%;
+        opacity:1;
+    }
+}
+.star {
+    animation-name: star;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+    animation-direction: alternate;
+
+}
+@keyframes star1 {
+    to {
+
+        opacity:0;
+    }
+    from{
+
+        opacity:1;
+    }
+}
+.star1 {
+    animation-name: star1;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+    animation-direction: alternate;
+}
+@keyframes star2 {
+    0% {
+        opacity:1;
+    }
+    45% {
+        opacity:1;
+    }
+    55% {
+        opacity:0;
+    }
+    100% {
+        opacity:0;
+    }
+
+}
+.star2 {
+    animation-name: star2;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+    animation-direction: alternate;
+}
+
+/*Star Size*/
+:root {
+    --star-width: 200px;
+    --star-height: 200px;
+}

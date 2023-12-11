@@ -1,0 +1,8 @@
+[
+  {"feature": "acousticness", "desc": "Whether the music involves real or synthetic instruments. High acousticness means real instruments are used while low acousticness suggests the use of electronic or synthesized sounds."},
+  {"feature": "valence", "desc": "The mood or emotion conveyed by the music. A high value for valence is associated with happy or upbeat feelings while low valence is linked to sadder or more somber emotions."},
+  {"feature": "tempo", "desc": "The speed of a piece of music (unit is BPM). If you can tap your foot to a song, you're following its tempo. Songs with a high value for tempo are fast while songs with a low tempo feel.. slow."},
+  {"feature": "speechiness", "desc": "Whether the music is more focused on lyrics and natural language (like spoken words or rap) or if it leans towards a more melodic, musical emphasis and feels \"to be sang\"."},
+  {"feature": "loudness", "desc": "How soft or loud a sound is (unit is dB). It's just like adjusting the volume on your speakers - higher loudness means the music sounds, well, louder and noisier."},
+  {"feature": "instrumentalness", "desc": "Whether the music is BGM-heavy or vocal-heavy. Music with high instrumentalness focuses more on musical instruments, while music with low instrumentalness includes more human voice."}
+]
